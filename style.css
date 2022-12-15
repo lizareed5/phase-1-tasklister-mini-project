@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(132, 240, 217), #509cd9);
 }
 
 button {
@@ -18,7 +18,7 @@ button {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.3);
