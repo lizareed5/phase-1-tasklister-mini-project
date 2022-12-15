@@ -30,7 +30,7 @@ function createToDo(newTask){
   let li = document.createElement('li');
   btn.addEventListener('click', markComplete)
   li.textContent = `${newTask} `
-  btn.textContent = "X"
+  btn.textContent = "✅"
   ul.appendChild(li)
   li.appendChild(btn)
 }
